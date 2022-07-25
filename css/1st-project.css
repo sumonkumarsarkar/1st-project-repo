@@ -1,5 +1,6 @@
 body{
     font-family: 'Edu TAS Beginner', cursive;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -24,4 +25,8 @@ section{
      background-image:linear-gradient( orange,tomato);
      font-weight: 400;
      color: white;
+}
+.top-banner{
+    background-image: url(../developer-portfolio-master/images/top-banner.png);
+    background-repeat: no-repeat;
 }
