@@ -1,6 +1,6 @@
 body{
     font-family: 'Edu TAS Beginner', cursive;
-    margin: 0;
+    margin:0;
 }
 h1{
     font-size: 50px;
@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex ;
     margin-bottom: 100px;
 }
@@ -31,15 +31,45 @@ section{
     background-image: url(../developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
 }
-.mhalf-width{
+.half-width{
     width: 50%;
     padding-left: 5%;
 }
-.mhalf-width img{
+.half-width img{
     width: 100%;
 }
 .mid-banner{
     background-image: url(../developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.div1{
+    width: 50%;
+    box-shadow: 10px 10px 30px skyblue;
+    padding-left:5%;
+    margin-left: 10px;
+    margin-right:10px;
+    padding-right:5%;
+    border-left: 5px solid;
+    border-image:linear-gradient( rgb(255, 98, 0),rgb(205, 235, 135));
+    border-image-slice: 1;
+
+}
+.div2{
+    width:50%;
+    box-shadow:10px 10px 30px skyblue;
+    padding-left:5%;
+    margin-left: 10px;
+    padding-right:5%;
+    margin-right: 10px;
+    border-left: 5px solid;
+    border-image:linear-gradient( blue,skyblue);
+    border-image-slice: 1;
+
+}
+.last-banner{
+    background-image: url(..//developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 100px;
 }
